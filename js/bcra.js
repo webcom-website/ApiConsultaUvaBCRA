@@ -10,7 +10,7 @@ $("#boton").on("click", leerApi);
                 data:{d: "2021-01-10"},
                 // tipo de autorizacion, 'Bearer'  y token del BCRA
                 beforeSend: function (xhr) {
-                    xhr.setRequestHeader('Authorization', 'Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDU4ODc3NDMsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJhbmRtaW5pbjhAZ21haWwuY29tIn0.MnHbGm-F4_BqZHoicMGT_l8nwWthXdae4CO1XFhzd20Qs3zS9PXfGMHUd_W2SBvbTcZiUOcxONiajWzMRTccQA');
+                    xhr.setRequestHeader('Authorization', 'Bearer YOURAPI_KEY');
                 },
 
                 success: function (res) {
